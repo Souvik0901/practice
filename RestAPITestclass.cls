@@ -36,7 +36,7 @@ global class MockHttpResponseGenerator implements HttpCalloutMock {
 
 ------------------------------------------------------------
 
-Now, before calling the actual class the test class use Test.setMock method as shown below in the same test class as shown below-
+//Now, before calling the actual class the test class use Test.setMock method as shown below in the same test class as shown below-
 @isTest
 private class MyCalloutTest {
     @isTest static void testCallout() {
